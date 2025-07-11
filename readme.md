@@ -1,170 +1,70 @@
-###To-Do List Application
+# To-Do List Application
 
 A simple Python-based To-Do List application that allows users to manage tasks via a command-line interface or a Tkinter GUI. Tasks are stored persistently in a JSON file, making it easy to save and retrieve tasks between sessions. This project is ideal for beginners learning Python, covering concepts like lists, dictionaries, file I/O, and GUI programming.
 
-Table of Contents
-
-
-
-
-
+## Table of Contents
 Features
-
-
-
 Requirements
-
-
-
 Installation
-
-
-
 Usage
-
-
-
-
-
 Command-Line Version
-
-
-
 GUI Version
-
-
-
 File Structure
-
-
-
 How It Works
-
-
-
 Enhancements
-
-
-
 Contributing
 
-
-
-License
-
-Features
-
-
-
-
+## Features
 
 Add Tasks: Create new tasks with a description and optional priority (High, Medium, Low).
 
-
-
 View Tasks: Display all tasks with their IDs, descriptions, and priorities.
-
-
 
 Edit Tasks: Update the description or priority of an existing task.
 
-
-
 Delete Tasks: Remove tasks by their ID.
-
-
 
 Persistent Storage: Tasks are saved to a tasks.json file and loaded on startup.
 
-
-
-Two Interfaces:
-
-
-
-
+### Two Interfaces:
 
 Command-line interface for simple, text-based interaction.
 
-
-
 Tkinter GUI for a more interactive experience (optional).
-
-
 
 Error Handling: Handles invalid inputs and file errors gracefully.
 
-Requirements
-
-
-
-
+### Requirements
 
 Python 3.6 or higher (tested with Python 3.11+).
 
-
-
 Tkinter (included with Python, may need installation on some Linux systems).
-
-
 
 No external libraries required for the command-line version (uses standard json and os modules).
 
-
-
 Tkinter is required for the GUI version.
 
-Installation
+### Installation
 
 Follow these steps to set up the project on your local machine:
-
-
-
-
-
 Clone the Repository:
 
 git clone https://github.com/your-username/todo-list-app.git
 cd todo-list-app
 
-
-
 Install Python:
-
-
-
-
-
 Download and install Python from python.org.
-
-
 
 Ensure Python is added to your PATH.
 
-
-
 Verify installation:
-
 python3 --version
-
-
 
 Verify Tkinter (for GUI):
 
-
-
-
-
 Run python3 -m tkinter in a terminal. A small window should appear.
-
-
-
 If missing (Linux):
-
 sudo apt-get install python3-tk  # Ubuntu/Debian
-
-
-
 No additional dependencies are needed, as the project uses Python’s standard library.
 
 Usage
