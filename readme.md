@@ -67,45 +67,23 @@ If missing (Linux):
 sudo apt-get install python3-tk  # Ubuntu/Debian
 No additional dependencies are needed, as the project uses Python’s standard library.
 
-Usage
+### Usage
 
 Command-Line Version
-
-
-
-
-
 Run the command-line application:
 
 python3 todo.py
-
-
-
-Follow the menu prompts:
-
-
-
-
+#### Follow the menu prompts:
 
 1. Add Task: Enter a description and optional priority (High/Medium/Low).
 
-
-
 2. View Tasks: See all tasks with their IDs, descriptions, and priorities.
-
-
 
 3. Edit Task: Enter the task ID and new description/priority (press Enter to skip unchanged fields).
 
-
-
 4. Delete Task: Enter the task ID to remove it.
 
-
-
 5. Exit: Close the program.
-
-
 
 Tasks are saved automatically to tasks.json in the project folder.
 
@@ -124,126 +102,19 @@ Task 'Buy groceries' added successfully!
 
 GUI Version
 
-
-
-
-
 Run the GUI application:
 
 python3 todo_gui.py
 
-
-
 Use the interface:
-
-
-
-
 
 Enter a task description and optional priority in the text fields.
 
-
-
 Click “Add Task” to add the task to the list.
-
-
 
 Select a task in the listbox and click “Delete Selected Task” to remove it.
 
-
-
 Tasks are displayed in the listbox with their ID, description, and priority.
-
-
 
 Tasks are saved to tasks.json and loaded on startup.
 
-File Structure
-
-todo-list-app/
-├── todo.py         # Command-line version of the To-Do List application
-├── todo_gui.py     # GUI version using Tkinter
-├── tasks.json      # JSON file for storing tasks (created automatically)
-└── README.md       # This file
-
-How It Works
-
-
-
-
-
-Data Structure: Tasks are stored as a list of dictionaries (e.g., [{"id": 1, "description": "Buy groceries", "priority": "High"}]).
-
-
-
-Persistence: Tasks are saved to tasks.json using the json module and loaded on startup.
-
-
-
-Command-Line: A menu-driven interface handles user input in a loop, with functions for adding, viewing, editing, and deleting tasks.
-
-
-
-GUI: Uses Tkinter to provide a window with input fields, a task list, and buttons for adding/deleting tasks.
-
-
-
-Error Handling: Validates user input (e.g., numeric IDs) and handles file I/O errors.
-
-Enhancements
-
-Here are some ideas to extend the project:
-
-
-
-
-
-Add task categories or due dates.
-
-
-
-Sort tasks by priority or date.
-
-
-
-Add input validation for priorities (e.g., restrict to High/Medium/Low).
-
-
-
-Enhance the GUI with an “Edit Task” button or color-coded priorities.
-
-
-
-Use a database (e.g., SQLite) for larger datasets.
-
-
-
-Add a feature to mark tasks as completed.
-
-Contributing
-
-Contributions are welcome! To contribute:
-
-
-
-
-
-Fork the repository.
-
-
-
-Create a new branch: git checkout -b feature/your-feature.
-
-
-
-Make your changes and commit: git commit -m "Add your feature".
-
-
-
-Push to your branch: git push origin feature/your-feature.
-
-
-
-Open a pull request with a description of your changes.
-
-Please ensure your code follows Python PEP 8 style guidelines and includes comments for clarity.
