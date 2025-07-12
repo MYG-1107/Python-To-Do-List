@@ -16,15 +16,15 @@ Contributing
 
 ## Features
 
-Add Tasks: Create new tasks with a description and optional priority (High, Medium, Low).
+<b>Add Tasks</b>: Create new tasks with a description and optional priority (High, Medium, Low).
 
-View Tasks: Display all tasks with their IDs, descriptions, and priorities.
+<b>View Tasks</b>: Display all tasks with their IDs, descriptions, and priorities.
 
-Edit Tasks: Update the description or priority of an existing task.
+<b>Edit Tasks</b>: Update the description or priority of an existing task.
 
-Delete Tasks: Remove tasks by their ID.
+<b>Delete Tasks</b>: Remove tasks by their ID.
 
-Persistent Storage: Tasks are saved to a tasks.json file and loaded on startup.
+<b>Persistent Storage</b>: Tasks are saved to a tasks.json file and loaded on startup.
 
 ### Two Interfaces:
 
