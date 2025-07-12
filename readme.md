@@ -77,17 +77,17 @@ python3 todo.py
 
 1. <b>Add Task</b>: Enter a description and optional priority (High/Medium/Low).
 
-2. View Tasks: See all tasks with their IDs, descriptions, and priorities.
+2. <b>View Tasks</b>: See all tasks with their IDs, descriptions, and priorities.
 
-3. Edit Task: Enter the task ID and new description/priority (press Enter to skip unchanged fields).
+3. <b>Edit Task</b>: Enter the task ID and new description/priority (press Enter to skip unchanged fields).
 
-4. Delete Task: Enter the task ID to remove it.
+4. <b>Delete Task</b>: Enter the task ID to remove it.
 
-5. Exit: Close the program.
+5. <b>Exit</b>: Close the program.
 
 Tasks are saved automatically to tasks.json in the project folder.
 
-Example:
+##### Example:
 
 To-Do List Application
 1. Add Task
@@ -100,7 +100,7 @@ Enter task description: Buy groceries
 Enter priority (High/Medium/Low, default Medium): High
 Task 'Buy groceries' added successfully!
 
-GUI Version
+#### GUI Version
 
 Run the GUI application:
 
@@ -110,7 +110,7 @@ Use the interface:
 
 Enter a task description and optional priority in the text fields.
 
-Click “Add Task” to add the task to the list.
+Click “<b>Add Task</b>” to add the task to the list.
 
 Select a task in the listbox and click “Delete Selected Task” to remove it.
 
