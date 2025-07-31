@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "id": 1,
+        "name": "TASK 1",
+        "description": "TASK DISCRIPTION 1",
+        "priority": "High",
+        "date": "2025-07-31 21:35:00",
+        "deadline": "2027-08-01"
+    },
+    {
+        "id": 2,
+        "name": "TASK 2",
+        "description": "TASK DISCRIPTION 2",
+        "priority": "Medium",
+        "date": "2025-07-31 21:36:21",
+        "deadline": "2027-08-02"
+    },
+    {
+        "id": 3,
+        "name": "TASK 3",
+        "description": "TASK DISCRIPTION 3",
+        "priority": "Low",
+        "date": "2025-07-31 21:36:47",
+        "deadline": "2027-08-03"
+    }
+]
