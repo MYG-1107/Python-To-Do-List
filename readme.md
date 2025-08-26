@@ -2,7 +2,7 @@
 
 A simple Python-based <b>To-Do List application</b> that allows users to manage tasks via a command-line interface or a Tkinter GUI. Tasks are stored persistently in a JSON file, making it easy to save and retrieve tasks between sessions. This project is ideal for beginners learning Python, covering concepts like lists, dictionaries, file I/O, and GUI programming.
 
-## Table of Contents
+### Table of Contents
 Features
 Requirements
 Installation
