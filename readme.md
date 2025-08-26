@@ -14,7 +14,7 @@ How It Works
 Enhancements
 Contributing
 
-## Features
+### Features
 
 <b>Add Tasks</b>: Create new tasks with a description and optional priority (High, Medium, Low).
 
