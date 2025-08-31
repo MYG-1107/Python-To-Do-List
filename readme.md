@@ -75,7 +75,7 @@ Run the command-line application:
 python3 todo.py
 #### Follow the menu prompts:
 
-1. <b>Add Task</b>: Enter a description and optional priority (High/Medium/Low).
+1. <strong>Add Task</strong>: Enter a description and optional priority (High/Medium/Low).
 
 2. <b>View Tasks</b>: See all tasks with their IDs, descriptions, and priorities.
 
