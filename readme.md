@@ -81,7 +81,7 @@ python3 todo.py
 
 3. <b>Edit Task</b>: <I>Enter the task ID and new description/priority (press Enter to skip unchanged fields).</i>
 
-4. <b>Delete Task</b>: Enter the task ID to remove it.
+4. <b>Delete Task</b>: <i>Enter the task ID to remove it.</I>
 
 5. <b>Exit</b>: Close the program.
 
