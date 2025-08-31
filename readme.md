@@ -77,7 +77,7 @@ python3 todo.py
 
 1. <strong>Add Task</strong>: <I>Enter a description and optional priority (High/Medium/Low).</i>
 
-2. <b>View Tasks</b>: See all tasks with their IDs, descriptions, and priorities.
+2. <b>View Tasks</b>: <I>See all tasks with their IDs, descriptions, and priorities.</i>
 
 3. <b>Edit Task</b>: Enter the task ID and new description/priority (press Enter to skip unchanged fields).
 
