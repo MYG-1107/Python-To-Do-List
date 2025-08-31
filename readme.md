@@ -83,7 +83,7 @@ python3 todo.py
 
 4. <b>Delete Task</b>: <i>Enter the task ID to remove it.</I>
 
-5. <b>Exit</b>: Close the program.
+5. <b>Exit</b>: <i>Close the program.</i>
 
 Tasks are saved automatically to tasks.json in the project folder.
 
